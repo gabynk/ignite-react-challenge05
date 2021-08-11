@@ -1,1 +1,55 @@
-// TODO
+.container {
+    button {
+        margin-top: 4rem;
+        background: none;
+        border: none;
+        color: var(--highlight);
+        font-weight: 600;
+        font-size: 1.125rem;
+    }
+}
+
+.postsItens {
+    a {
+        display: block;
+
+        h2 {
+            font-weight: bold;
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: var(--heading);
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 1.125rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .info {
+            display: flex;
+
+            svg {
+                margin-right: 0.5rem;
+                width: 20px;
+                height: 20px;
+                color: var(--info);
+            }
+
+            span {
+                font-size: 0.875rem;
+                color: var(--info);
+                display: flex;
+                align-items: center;
+            }
+
+            span + span {
+                margin-left: 1.5rem;
+            }
+        }
+    }
+
+    a + a {
+        margin-top: 3rem;
+    }
+}

@@ -1,1 +1,67 @@
-// TODO
+.container {
+    .banner {
+        img {
+            width: 100vw;
+            height: 400px;
+            margin-bottom: 5rem;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 3rem;
+        margin-left: 0.5px;
+        margin-bottom: 1.5rem;
+        color: var(--heading);
+    }
+
+    .info {
+        display: flex;
+        margin-bottom: 4rem;
+
+        svg {
+            margin-right: 0.5rem;
+            width: 20px;
+            height: 20px;
+            color: var(--info);
+        }
+
+        span {
+            font-size: 0.875rem;
+            color: var(--info);
+            display: flex;
+            align-items: center;
+        }
+
+        span + span {
+            margin-left: 1.5rem;
+        }
+    }
+
+    section {
+        h2 {
+            font-weight: 700;
+            font-size: 2.25rem;
+            margin: 3rem 0;
+            color: var(--heading);
+        }
+
+        p,
+        ul,
+        li {
+            font-weight: normal;
+            font-size: 1.125rem;
+            line-height: 1.8;
+            margin: 1.8rem 0;
+            text-align: justify;
+        }
+
+        a {
+            color: var(--highlight);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
