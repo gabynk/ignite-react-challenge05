@@ -1,5 +1,23 @@
 .content {
-    padding: 2.5rem 2rem;
+    padding: 0 2rem;
     max-width: 700px;
     margin: 0 auto;
+}
+
+.previousModeButton {
+    width: 100%;
+    height: 3.625rem;
+    margin-top: 5rem;
+
+    a {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--heading);
+        border-radius: 4px;
+        color: var(--background);
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
 }
